@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="订单服务" >
+    <test name="退货模块" >
+<!--        <parameter name="订单模块" value="chrome" />-->
+        <classes>
+            <class name="com.test.apiCase.runcase.RunJenkinsRegist" />
+            <class name="com.test.apiCase.runcase.RunJuheApi" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

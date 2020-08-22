@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "订单服务" prallel = "false">
+    <test name = "付款模块">
+        <classes>
+            <class name = "com.test.dataprovider.testLiu"></class>
+        </classes>
+    </test>
+
+    <parameter name = "type" value = "firefox"></parameter>
+    <parameter name = "version" value="1.0"></parameter>
+</suite>
